@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# CIFAR-10 is several hundred MB and includes files over GitHub's 100 MB limit.
+experiment/data/
+
+# The run log was overwritten by a concurrent smoke test and is not the result record.
+experiment/results/log.txt
